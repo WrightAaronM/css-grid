@@ -1,0 +1,344 @@
+$smallMaxWidth: 600px;
+$mediumMaxWidth: 1200px;
+$colPadding: 1rem;
+$rowGap: .5rem;
+$span1: auto / span 1;
+$span2: auto / span 2;
+$span3: auto / span 3;
+$span4: auto / span 4;
+$span5: auto / span 5;
+$span6: auto / span 6;
+$span7: auto / span 7;
+$span8: auto / span 8;
+$span9: auto / span 9;
+$span10: auto / span 10;
+$span11: auto / span 11;
+$span12: auto / span 12;
+
+@mixin small-rules() {
+
+  .s1 {
+    grid-column: $span1;
+  }
+
+  .s2 {
+    grid-column: $span2;
+  }
+
+  .s3 {
+    grid-column: $span3;
+  }
+
+  .s4 {
+    grid-column: $span4;
+  }
+
+  .s5 {
+    grid-column: $span5;
+  }
+
+  .s6 {
+    grid-column: $span6;
+  }
+
+  .s7 {
+    grid-column: $span7;
+  }
+
+  .s8 {
+    grid-column: $span8;
+  }
+
+  .s9 {
+    grid-column: $span9;
+  }
+
+  .s10 {
+    grid-column: $span10;
+  }
+
+  .s11 {
+    grid-column: $span11;
+  }
+
+  .s12 {
+    grid-column: $span12;
+  }
+
+  .col-offset-s1 {
+    grid-column-start: 2;
+  }
+
+  .col-offset-s2 {
+    grid-column-start: 3;
+  }
+
+  .col-offset-s3 {
+    grid-column-start: 4;
+  }
+
+  .col-offset-s4 {
+    grid-column-start: 5;
+  }
+
+  .col-offset-s5 {
+    grid-column-start: 6;
+  }
+
+  .col-offset-s6 {
+    grid-column-start: 7;
+  }
+
+  .col-offset-s7 {
+    grid-column-start: 8;
+  }
+
+  .col-offset-s8 {
+    grid-column-start: 9;
+  }
+
+  .col-offset-s9 {
+    grid-column-start: 10;
+  }
+
+  .col-offset-s10 {
+    grid-column-start: 11;
+  }
+
+  .col-offset-s11 {
+    grid-column-start: 12;
+  }
+}
+
+@mixin medium-rules() {
+  .m1 {
+    grid-column: $span1;
+  }
+
+  .m2 {
+    grid-column: $span2;
+  }
+
+  .m3 {
+    grid-column: $span3;
+  }
+
+  .m4 {
+    grid-column: $span4;
+  }
+
+  .m5 {
+    grid-column: $span5;
+  }
+
+  .m6 {
+    grid-column: $span6;
+  }
+
+  .m7 {
+    grid-column: $span7;
+  }
+
+  .m8 {
+    grid-column: $span8;
+  }
+
+  .m9 {
+    grid-column: $span9;
+  }
+
+  .m10 {
+    grid-column: $span10;
+  }
+
+  .m11 {
+    grid-column: $span11;
+  }
+
+  .m12 {
+    grid-column: $span12;
+  }
+
+  .col-offset-m1 {
+    grid-column-start: 2;
+  }
+
+  .col-offset-m2 {
+    grid-column-start: 3;
+  }
+
+  .col-offset-m3 {
+    grid-column-start: 4;
+  }
+
+  .col-offset-m4 {
+    grid-column-start: 5;
+  }
+
+  .col-offset-m5 {
+    grid-column-start: 6;
+  }
+
+  .col-offset-m6 {
+    grid-column-start: 7;
+  }
+
+  .col-offset-m7 {
+    grid-column-start: 8;
+  }
+
+  .col-offset-m8 {
+    grid-column-start: 9;
+  }
+
+  .col-offset-m9 {
+    grid-column-start: 10;
+  }
+
+  .col-offset-m10 {
+    grid-column-start: 11;
+  }
+
+  .col-offset-m11 {
+    grid-column-start: 12;
+  }
+}
+
+@mixin large-rules() {
+
+  .l1 {
+    grid-column: $span1;
+  }
+
+  .l2 {
+    grid-column: $span2;
+  }
+
+  .l3 {
+    grid-column: $span3;
+  }
+
+  .l4 {
+    grid-column: $span4;
+  }
+
+  .l5 {
+    grid-column: $span5;
+  }
+
+  .l6 {
+    grid-column: $span6;
+  }
+
+  .l7 {
+    grid-column: $span7;
+  }
+
+  .l8 {
+    grid-column: $span8;
+  }
+
+  .l9 {
+    grid-column: $span9;
+  }
+
+  .l10 {
+    grid-column: $span10;
+  }
+
+  .l11 {
+    grid-column: $span11;
+  }
+
+  .l12 {
+    grid-column: $span12;
+  }
+
+  .col-offset-l1 {
+    grid-column-start: 2;
+  }
+
+  .col-offset-l2 {
+    grid-column-start: 3;
+  }
+
+  .col-offset-l3 {
+    grid-column-start: 4;
+  }
+
+  .col-offset-l4 {
+    grid-column-start: 5;
+  }
+
+  .col-offset-l5 {
+    grid-column-start: 6;
+  }
+
+  .col-offset-l6 {
+    grid-column-start: 7;
+  }
+
+  .col-offset-l7 {
+    grid-column-start: 8;
+  }
+
+  .col-offset-l8 {
+    grid-column-start: 9;
+  }
+
+  .col-offset-l9 {
+    grid-column-start: 10;
+  }
+
+  .col-offset-l10 {
+    grid-column-start: 11;
+  }
+
+  .col-offset-l11 {
+    grid-column-start: 12;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: $rowGap;
+}
+
+.col {
+  padding: $colPadding;
+}
+
+.spacer {
+  padding: 0px;
+  height: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+@media (max-width: $smallMaxWidth) {
+  @include small-rules();
+
+  .hide-s {
+    display: none;
+  }
+}
+
+@media (min-width: $smallMaxWidth + 1) and (max-width: $mediumMaxWidth) {
+  @include small-rules();
+  @include medium-rules();
+
+  .hide-m {
+    display: none;
+  }
+}
+
+@media (min-width: $mediumMaxWidth + 1) {
+  @include small-rules();
+  @include medium-rules();
+  @include large-rules();
+
+  .hide-l {
+    display: none;
+  }
+}
